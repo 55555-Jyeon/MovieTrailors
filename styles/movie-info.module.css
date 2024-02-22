@@ -49,6 +49,7 @@
 
 /* overview */
 .info p {
+  width: 90%;
   line-height: 140%;
   font-size: 16px;
   margin: 4px 0 20px;
@@ -77,14 +78,21 @@
   color: white;
   width: 200px;
   height: 50px;
-  padding: 4px 0;
 }
 .company li img {
   width: 30px;
   height: fit-content;
+  margin-left: 10px;
 }
 .company li p {
   margin: 0;
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 12px;
+}
+.company li:after {
+  content: "";
+  margin-left: 10px;
+  height: 40px;
+  width: 1px;
+  background-color: rgb(40, 40, 40);
 }

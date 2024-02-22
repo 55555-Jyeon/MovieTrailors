@@ -14,7 +14,7 @@ export default async function MovieInfo({ id }: { id: string }) {
   movie.production_companies.map((company) =>
     productions.push([company.logo_path, company.name])
   );
-  console.log(productions);
+
   return (
     <div className={styles.container}>
       <img
