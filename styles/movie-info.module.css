@@ -1,5 +1,6 @@
 .container {
   width: 80%;
+  height: max-content;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 50px;
@@ -7,20 +8,83 @@
 }
 
 .poster {
-  max-width: 70%;
-  border-radius: 20px;
-  place-self: center;
+  width: 70%;
+  border-radius: 12px;
+  margin-left: 18%;
 }
 
 .info {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   gap: 20px;
+  overflow: hidden;
 }
 
-.title {
+/* title */
+.info h1 {
   color: white;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* genre */
+.info div {
+  width: fit-content;
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0 6px;
+}
+.info div h3 {
+  color: white;
+  padding: 6px 10px;
+  margin-right: 8px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #6944f3, #2a0c9b 40%);
+}
+
+/* overview */
+.info p {
+  line-height: 140%;
+  font-size: 16px;
+  margin: 4px 0 20px;
+  word-break: keep-all;
+}
+
+/* links */
+.info a,
+.info details summary {
+  font-size: 14px;
+}
+
+/* production image */
+.company {
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 10px;
+}
+.company li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  width: 200px;
+  height: 50px;
+  padding: 4px 0;
+}
+.company li img {
+  width: 30px;
+  height: fit-content;
+}
+.company li p {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 12px;
 }
