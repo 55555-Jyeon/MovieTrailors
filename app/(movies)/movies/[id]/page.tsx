@@ -1,6 +1,5 @@
 import { Suspense } from "react";
 import MovieInfo, { getMovie } from "../../../../components/movie-info";
-import MovieVideo from "../../../../components/movie-videos";
 import MovieInfoTabs from "../../../../components/movie-tabs";
 
 interface IParams {
@@ -21,9 +20,6 @@ export default async function MovieDetailPage({ params: { id } }: IParams) {
       <Suspense fallback={<h1>Loading movie info...</h1>}>
         <MovieInfo id={id} />
       </Suspense>
-      {/*       <Suspense fallback={<h1>Loading movie video...</h1>}>
-        <MovieVideo id={id} />
-      </Suspense> */}
       <MovieInfoTabs id={id} />
     </div>
   );

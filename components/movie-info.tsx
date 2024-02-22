@@ -26,7 +26,7 @@ export default async function MovieInfo({ id }: { id: string }) {
         <h1>{movie.title}</h1>
         <div>
           {genres.map((genre) => (
-            <h3>{genre}</h3>
+            <p>{genre}</p>
           ))}
         </div>
         <h3>
