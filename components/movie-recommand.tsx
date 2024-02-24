@@ -1,4 +1,5 @@
 import { API_URL } from "../app/const";
+import { skipTitleView } from "../app/utils/handle-overflow-text";
 import styles from "../styles/similar-movie.module.css";
 import Link from "next/link";
 
@@ -15,7 +16,7 @@ export default async function SimilarMovies({ id }: { id: string }) {
         <div key={id} className={styles.movie}>
           <img src={movie.poster_path} alt={movie.title} />
           <Link prefetch href={`/movies/${movie.id}`}>
-            {movie.title}
+            {skipTitleView(movie.title)}
           </Link>
           <h3>⭐️ {movie.vote_average.toFixed(1)}</h3>
           <p>{movie.release_date}</p>

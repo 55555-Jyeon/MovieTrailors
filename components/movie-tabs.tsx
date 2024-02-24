@@ -24,11 +24,11 @@ export default function MovieInfoTabs({ id }: { id: string }) {
       <ul>
         {tabs.map((tab, index) => (
           <li
-            className={index === currentTab ? "focused" : ""}
+            className={index === currentTab ? "clicked" : ""}
             onClick={() => selectedTab(index)}
             key={tab.id}
           >
-            {tab.name}
+            {tab.name} {index === currentTab ? "⭐️" : ""}
           </li>
         ))}
       </ul>

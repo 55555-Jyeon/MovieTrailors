@@ -22,8 +22,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+  cursor: pointer;
 }
-.container ul li.focused {
+.container ul li.clicked {
   background-color: #2a0c9b;
 }
 .container ul li:hover {
