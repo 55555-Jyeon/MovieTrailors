@@ -14,7 +14,14 @@ next.js를 시작하기 위한 intro
 make it better by using credits, providers, similar
 <a href="https://nomad-movies.nomadcoders.workers.dev/" >detail infos.</a>
 
+<p align="center">
+<img width="80%" src="https://github.com/55555-Jyeon/startNext/assets/134191817/e740678b-f704-493c-a2fe-0e2c55bb2412">
+
+</p>
+
 1️⃣ check API
+
+response.data의 값을 하나 단위로 쪼개 보기 편하도록 정리
 
 ```javascript
 // one movie
@@ -113,3 +120,64 @@ make it better by using credits, providers, similar
     "vote_count":272
 },
 ```
+
+<br />
+
+2️⃣ code challenge
+
+위 data의 형태와 값들을 확인 후 render하고 싶은 것들을 골라 code challenge 진행
+
+- design change : 니꼬 쌤과 함께 진행한 css에서 일부 수정
+
+<p align="center">
+<img width="80%"  src="https://github.com/55555-Jyeon/startNext/assets/134191817/565cf4a5-019e-4015-b87a-5f112a9bbab1">
+</p>
+
+- similar movies
+
+<p align="center">
+<img width="80%"  src="https://github.com/55555-Jyeon/startNext/assets/134191817/aa7f1a6f-e33f-498e-8daf-42dc4da14812">
+</p>
+<p align="center">
+<img width="80%"  src="https://github.com/55555-Jyeon/startNext/assets/134191817/4d9556d4-e87e-4e7e-b6f7-60468c264102">
+</p>
+
+- providers
+
+<p align="center">
+<img width="80%"  src="https://github.com/55555-Jyeon/startNext/assets/134191817/d4430681-5a07-4ae2-913a-99b0a8df4ba5">
+</p>
+<p align="center">
+<img width="80%"  src="https://github.com/55555-Jyeon/startNext/assets/134191817/a3a2be8f-85f1-497a-860d-91327eaf4885">
+</p>
+
+- credits
+
+<p align="center">
+<img width="80%"  src="https://github.com/55555-Jyeon/startNext/assets/134191817/4a4df17e-3004-469b-b675-9cfc06cb9d28" />
+</p>
+<p align="center">
+<img width="80%"  src="https://github.com/55555-Jyeon/startNext/assets/134191817/a63b4814-cc89-422a-b8df-a0a548796c39" />
+</p>
+
+<br />
+
+3️⃣ final page design
+
+- main
+
+<p align="center">
+<img width="80%" src="https://github.com/55555-Jyeon/startNext/assets/134191817/fce2b7a2-54f2-49fd-8d04-968036dd1566" />
+</p>
+
+- detail
+
+<p align="center">
+<img width="80%" src="https://github.com/55555-Jyeon/startNext/assets/134191817/0f594627-2cc7-43b6-9ce8-dce918e461d0" />
+</p>
+
+- error-page
+
+<p align="center">
+<img width="80%" src="https://github.com/55555-Jyeon/startNext/assets/134191817/93d14bb0-2774-44f3-9674-07c82879feee" />
+</p>
