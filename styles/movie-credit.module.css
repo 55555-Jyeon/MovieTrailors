@@ -1,0 +1,49 @@
+.container {
+  width: 100% !important;
+  margin: 0 auto;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 4px;
+}
+/* one similar movie */
+.credit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 0 !important;
+  margin: 20px 0 !important;
+  cursor: pointer;
+}
+.credit:hover {
+  transform: translateY(-8px);
+  transition: all ease 0.2s;
+}
+/* profile */
+.credit img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.credit img.noImage {
+  width: 110px;
+  height: 170px;
+  border: 0.2px solid #888 !important;
+}
+/* original name */
+.credit a {
+  width: 100%;
+  max-height: 36px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+/* character name */
+.credit p {
+  font-size: 10px;
+  margin: 2px 0;
+  color: #888;
+}
