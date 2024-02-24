@@ -36,9 +36,9 @@
 .container div {
   width: 70%;
   min-height: 600px;
+  margin: 40px auto;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 40px 0;
-  overflow: hidden;
 }
